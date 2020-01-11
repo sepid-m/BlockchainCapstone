@@ -1,0 +1,134 @@
+PS E:\Udacity\Blockchain\SecondTerm\CapstoneProject\eth-contracts> truffle migrate --network rinkeby
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\ERC721Mintable.sol
+> Compiling .\contracts\Oraclize.sol
+
+    > compilation warnings encountered:
+
+/E/Udacity/Blockchain/SecondTerm/CapstoneProject/eth-contracts/contracts/Oraclize.sol:320:7: Warning: Unreachable code.
+      _networkID; // silence the warning and remain backwards compatible
+      ^--------^
+,/E/Udacity/Blockchain/SecondTerm/CapstoneProject/eth-contracts/contracts/Oraclize.sol:373:7: Warning: Unreachable code.
+      _myid; _result; _proof; // Silence compiler warnings
+      ^--------------------^
+
+> Artifacts written to E:\Udacity\Blockchain\SecondTerm\CapstoneProject\eth-contracts\build\contracts
+> Compiled successfully using:
+   - solc: 0.5.9+commit.e560f70d.Emscripten.clang
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'rinkeby-fork'
+> Network id:      4
+> Block gas limit: 0x7249e9
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > block number:        4502096
+   > block timestamp:     1559661101
+   > account:             0x7109B275FA4A82061F61703A9a533E45f8bb4F14
+   > balance:             13.655937092
+   > gas used:            175982
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00175982 ETH
+
+   -------------------------------------
+   > Total cost:          0.00175982 ETH
+
+
+2_deploy_contracts.js
+=====================
+Network selected to deploy: rinkeby-fork
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.00175982 ETH
+
+
+Starting migrations...
+======================
+> Network name:    'rinkeby'
+> Network id:      4
+> Block gas limit: 0x72667a
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x5e86e17c2f8dc2c704913f76e992e72e22e7e27d4cd9f3cc79c50e86e2d5838a
+   > Blocks: 0            Seconds: 13
+   > contract address:    0x5842287070d7bA735B8Fef69c55B739fE75f03E3
+   > block number:        4502097
+   > block timestamp:     1559661133
+   > account:             0x7109B275FA4A82061F61703A9a533E45f8bb4F14
+   > balance:             13.655787092
+   > gas used:            190982
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00190982 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00190982 ETH
+
+
+2_deploy_contracts.js
+=====================
+Network selected to deploy: rinkeby
+
+   Deploying 'Verifier'
+   --------------------
+   > transaction hash:    0x856c032f3f57c18d2b54b3204b1a4cffaad3896a47cfa8ddcde7713d38089c27
+   > Blocks: 1            Seconds: 9
+   > contract address:    0x6beB7854778A9a2617bbCA8554258f5a15B464A5
+   > block number:        4502099
+   > block timestamp:     1559661163
+   > account:             0x7109B275FA4A82061F61703A9a533E45f8bb4F14
+   > balance:             13.641616752
+   > gas used:            1375095
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01375095 ETH
+
+
+   Deploying 'SolnSquareVerifier'
+   ------------------------------
+   > transaction hash:    0x1aeae2f2a8ca21a7ad3555182c37ff1a430e5c5877527c164998e21def8387de
+   > Blocks: 0            Seconds: 5
+   > contract address:    0x27615631B3736F5A95be381Fdfd378365a2e1B24
+   > block number:        4502100
+   > block timestamp:     1559661178
+   > account:             0x7109B275FA4A82061F61703A9a533E45f8bb4F14
+   > balance:             13.611804872
+   > gas used:            2981188
+   > gas price:           10 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02981188 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.04356283 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.04547265 ETH
