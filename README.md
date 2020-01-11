@@ -22,7 +22,7 @@ You will find the smart contract under "eth-contracts" folder. In this folder yo
 You will find the verification code and some proof_*.json files used to mint 10 tokens in the ERC721 smart contract deployed on Rinkeby network.
 
 - OpenSea Market place:
-To access to the store front for the ERC721 smart contract please use the following link
+To access to the store front for the ERC721 smart contract please use the following link: https://rinkeby.opensea.io/assets/sepid-capstoneproject
 
 ## Getting Started
 
