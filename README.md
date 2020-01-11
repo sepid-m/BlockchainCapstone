@@ -161,7 +161,7 @@ Here you can check all the transactions over the smart contract
 
 ```https://rinkeby.opensea.io/assets/sepid-capstoneproject-v4```
 
-![OpenSea Store Front](screenshots/06.png)
+![OpenSea Store Front](screenshots/06-new.png)
 
 
 # Project Resources
